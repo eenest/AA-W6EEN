@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AD9850_Module")(type "KiCad")(uri "${KIPRJMOD}/AD9850_Module.pretty")(options "")(descr ""))
+  (lib (name "SI2301-Library")(type "KiCad")(uri "${KIPRJMOD}/lib/SI2301-Library.pretty")(options "")(descr ""))
+  (lib (name "SI2302")(type "KiCad")(uri "${KIPRJMOD}/lib/SI2302.pretty")(options "")(descr ""))
+  (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty")(options "")(descr ""))
+  (lib (name "BF998")(type "KiCad")(uri "${KIPRJMOD}/lib/BF998.pretty")(options "")(descr ""))
+  (lib (name "SMD_805_HS_Library")(type "KiCad")(uri "${KIPRJMOD}/lib/SMD_805_HS_Library.pretty")(options "")(descr ""))
+)

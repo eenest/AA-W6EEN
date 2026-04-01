@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "aa-code",
+			"path": "../../../PlatformIO/Projects/aa-code"
+		}
+	],
+	"settings": {}
+}
