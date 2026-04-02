@@ -5081,7 +5081,7 @@
 	)
 	(text "STEP-IN"
 		(exclude_from_sim no)
-		(at 150.368 119.888 0)
+		(at 150.622 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5141,7 +5141,7 @@
 	)
 	(text "CHG-OUT"
 		(exclude_from_sim no)
-		(at 150.368 116.84 0)
+		(at 150.114 119.634 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8592,7 +8592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "MY-SOIC8:My-SOIC8"
 			(at 127 57.15 0)
 			(effects
 				(font
@@ -8678,7 +8678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "MY-SOIC8:My-SOIC8"
 			(at 106.68 54.61 0)
 			(effects
 				(font
@@ -11184,7 +11184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "MY-SOIC8:My-SOIC8"
 			(at 127 57.15 0)
 			(effects
 				(font
