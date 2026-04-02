@@ -1,3 +1,7 @@
+/*
+ * (C) Eugene Nesterenko, W6EEN. 2025-2026
+ */
+
 #include "pack10ram.h"
 
 uint8_t g_pack10_buf[PACK10_BYTES];
@@ -43,6 +47,4 @@ void pack10_write_x100(uint16_t idx, uint16_t v) {
   g_pack10_buf[b + 1] = (uint8_t)((w >> 8) & 0xFF);
   g_pack10_buf[b + 2] = (uint8_t)((w >> 16) & 0xFF);
 }
-
-
 

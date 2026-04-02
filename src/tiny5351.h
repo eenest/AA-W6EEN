@@ -3,6 +3,16 @@
 
 #include <inttypes.h>
 
+/*
+ * Derived from the tiny5351 library:
+ * https://github.com/riyas-org/tiny5351
+ *
+ * Upstream note:
+ * Borrowed from https://github.com/threeme3/QCX-SSB
+ *
+ * Modified in 2025 by Eugene Nesterenko, W6EEN.
+ */
+
 /* Borrowed from https://github.com/threeme3/QCX-SSB */
 
 #define SI_CLK_OE 3     // Register definitions

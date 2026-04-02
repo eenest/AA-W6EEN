@@ -6,4 +6,6 @@
   (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty")(options "")(descr ""))
   (lib (name "BF998")(type "KiCad")(uri "${KIPRJMOD}/lib/BF998.pretty")(options "")(descr ""))
   (lib (name "SMD_805_HS_Library")(type "KiCad")(uri "${KIPRJMOD}/lib/SMD_805_HS_Library.pretty")(options "")(descr ""))
+  (lib (name "KiCad")(type "KiCad")(uri "/Users/enesterenko/My Drive/Arduino/AA-W6EEN/KiCad.pretty")(options "")(descr ""))
+  (lib (name "MY-SOIC8")(type "KiCad")(uri "${KIPRJMOD}/lib/MY-SOIC8.pretty")(options "")(descr ""))
 )

@@ -1,4 +1,8 @@
 
+/*
+ * (C) Eugene Nesterenko, W6EEN. 2025-2026
+ */
+
 #include <SPI.h>
 #include <EEPROM.h>
 #include "tglib.h"

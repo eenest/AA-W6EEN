@@ -1,3 +1,7 @@
+/*
+ * (C) Eugene Nesterenko, W6EEN. 2025-2026
+ */
+
 #include "si5351_compat.h"
 
 Si5351Compat::Si5351Compat()
@@ -100,4 +104,3 @@ void Si5351Compat::out_calibrate_freq()
 //  (void)set_freq(_xtal_hz, 0, 0);
   (void)set_freq(XTAL_CALIBRATE_FREQ, 0, 0);
 }
-

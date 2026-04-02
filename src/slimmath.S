@@ -1,5 +1,7 @@
 
 ; simple math routine for multiplication and division
+; Included via the tiny5351 library bundle:
+; https://github.com/riyas-org/tiny5351
 
 ;***************************************************
 ;* Mutiply 32x32 -> 64 bit

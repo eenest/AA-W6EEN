@@ -2,6 +2,11 @@
 #define _SLIMMATH_H
 #endif
 
+/*
+ * Included via the tiny5351 library bundle:
+ * https://github.com/riyas-org/tiny5351
+ */
+
 
 typedef struct div_result { 
     uint32_t remainder; 
@@ -18,4 +23,3 @@ extern div_result tdivide(uint32_t divid,uint32_t divisor);
 #ifdef __cplusplus
 }
 #endif
-

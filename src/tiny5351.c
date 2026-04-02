@@ -4,6 +4,13 @@
 #include "tiny5351.h"
 #include "slimmath.h"
 
+/*
+ * Derived from the tiny5351 library:
+ * https://github.com/riyas-org/tiny5351
+ *
+ * Modified in 2025 by Eugene Nesterenko, W6EEN.
+ */
+
 
 static uint32_t g_si_xtal_freq = SI_XTAL_FREQ;
 
@@ -168,4 +175,3 @@ void si5351_freq(uint32_t freq, uint8_t clk)
 //  i2c_exit();						// Exit I2C  
 //}
 //
-

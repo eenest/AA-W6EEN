@@ -1,3 +1,8 @@
+/*
+ * (C) Eugene Nesterenko, W6EEN. 2025-2026
+ * Based on code from Andrew Bilokon, UR5FFR.
+ */
+
 #pragma once
 #include <Arduino.h>
 

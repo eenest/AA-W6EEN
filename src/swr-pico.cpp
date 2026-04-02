@@ -1,3 +1,8 @@
+/*
+ * (C) Eugene Nesterenko, W6EEN. 2025-2026
+ * Based on code from Andrew Bilokon, UR5FFR.
+ */
+
 // swr-pico.cpp
 // Pico-SWR measurement core + Si5351 control + ZeroLevel EEPROM
 
@@ -606,4 +611,3 @@ bool aaCalibrateZeroLevel(void)
   aaSetFreq(0, 0);
   return ok;
 }
-

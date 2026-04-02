@@ -1,3 +1,7 @@
+/*
+ * (C) Eugene Nesterenko, W6EEN. 2025-2026
+ */
+
 #pragma once
 #include <Arduino.h>
 
@@ -24,4 +28,3 @@ void pack10_clear(void);
 uint16_t pack10_read_x100(uint16_t idx);
 
 void pack10_write_x100(uint16_t idx, uint16_t v);
-

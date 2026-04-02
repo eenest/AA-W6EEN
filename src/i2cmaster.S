@@ -27,6 +27,12 @@
 ;	The I2C routines can be called either from non-interrupt or
 ;	interrupt routines, not both.
 ;
+; Included via the tiny5351 library bundle:
+; https://github.com/riyas-org/tiny5351
+;
+; Adapted for Arduino Uno/Nano pin mapping.
+; Modified in 2025 by Eugene Nesterenko, W6EEN.
+;
 ;*************************************************************************
 
 #if (__GNUC__ * 100 + __GNUC_MINOR__) < 303
@@ -261,7 +267,6 @@ i2c_ack_wait:
 	clr	r25
 	ret
 	.endfunc
-
 
 
 

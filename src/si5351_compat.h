@@ -1,3 +1,7 @@
+/*
+ * (C) Eugene Nesterenko, W6EEN. 2025-2026
+ */
+
 #pragma once
 #include <stdint.h>
 
@@ -73,4 +77,3 @@ private:
   // If you later change tiny5351 to dynamic PLL, update this logic.
   bool freq_ok_for_backend(uint32_t freq_hz) const;
 };
-
